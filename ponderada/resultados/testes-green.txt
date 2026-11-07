@@ -1,0 +1,30 @@
+$ python3 -m unittest discover -s ponderada/codigo -v
+test_argumentos_invalidos_retornam_erro (test_experimento.ContratoCLI.test_argumentos_invalidos_retornam_erro)
+CLIs rejeitam contagens inválidas e timeout não finito antes de iniciar. ... ok
+test_erro_na_thread_nao_e_rotulado_como_deadlock (test_experimento.ContratoCLI.test_erro_na_thread_nao_e_rotulado_como_deadlock)
+Injeta exceção no produtor; exige falha explícita e diagnóstico stderr. ... ok
+test_saida_legivel_tambem_termina_com_json (test_experimento.ContratoCLI.test_saida_legivel_tambem_termina_com_json)
+Sem --json, devolve resumo humano antes de um objeto JSON utilizável. ... ok
+test_versao1_metricas_sem_exigir_corrida_especifica (test_experimento.ContratoCLI.test_versao1_metricas_sem_exigir_corrida_especifica)
+A corrida pode variar; valida somente contagem, término e consistência. ... ok
+test_versao2_integra_em_ordem (test_experimento.ContratoCLI.test_versao2_integra_em_ordem)
+Com N=1 e N=4, todos os 500 IDs saem uma vez, em FIFO e sem travar. ... ok
+test_versao3_deadlock_quando_produtor_enche_antes_consumidor (test_experimento.ContratoCLI.test_versao3_deadlock_quando_produtor_enche_antes_consumidor)
+Atrasa só no teste o início do consumidor até o wait(vazio) bloqueante. ... ok
+test_versao3_nao_declara_travamento_sem_buffer_cheio (test_experimento.ContratoCLI.test_versao3_nao_declara_travamento_sem_buffer_cheio)
+Com total menor que N, a ordem errada pode terminar; não forja defeito. ... ok
+test_configuracao_rejeita_numeros_invalidos (test_experimento.ContratoConfiguracao.test_configuracao_rejeita_numeros_invalidos)
+Recebe valores não positivos/não finitos; espera ValueError, sem threads. ... ok
+test_defaults_individuais (test_experimento.ContratoConfiguracao.test_defaults_individuais)
+Sem parâmetros, obtém 20 mil amostras, N=4 e watchdog de 1 s. ... ok
+test_metricas_contam_retiradas_e_ids_distintos (test_experimento.ContratoMetricas.test_metricas_contam_retiradas_e_ids_distintos)
+De 10 solicitadas/8 produzidas e IDs 0,1,1,7, retorna as oito métricas. ... ok
+test_metricas_rejeitam_ids_impossiveis (test_experimento.ContratoMetricas.test_metricas_rejeitam_ids_impossiveis)
+Recebe IDs negativos, fora da produção ou não inteiros; retorna erro explícito. ... ok
+test_metricas_sem_retiradas (test_experimento.ContratoMetricas.test_metricas_sem_retiradas)
+Nenhum ID recebido: todas perdidas, sem duplicadas nem divisão por zero. ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 2.253s
+
+OK

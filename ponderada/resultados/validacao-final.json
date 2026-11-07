@@ -1,0 +1,13 @@
+{
+  "testes": 12,
+  "testes_aprovados": 12,
+  "execucoes_A4": 9,
+  "amostras_solicitadas_por_execucao": 20000,
+  "N": 4,
+  "cobertura_linhas_e_ramos_percentual": 92,
+  "memorando_paginas": 1,
+  "prints": 4,
+  "segredos_detectados": 0,
+  "links_locais_verificados": true,
+  "raiz_conforme_enunciado": true
+}

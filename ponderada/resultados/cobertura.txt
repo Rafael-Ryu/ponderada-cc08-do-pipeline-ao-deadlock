@@ -1,0 +1,8 @@
+Name                              Stmts   Miss Branch BrPart  Cover   Missing
+-----------------------------------------------------------------------------
+ponderada/codigo/experimento.py     175      8     60      9    93%   59, 118, 128, 132, 143, 150->exit, 162, 207, 229
+ponderada/codigo/versao1.py           3      0      2      1    80%   10->exit
+ponderada/codigo/versao2.py           3      0      2      1    80%   10->exit
+ponderada/codigo/versao3.py           3      0      2      1    80%   10->exit
+-----------------------------------------------------------------------------
+TOTAL                               184      8     66     12    92%

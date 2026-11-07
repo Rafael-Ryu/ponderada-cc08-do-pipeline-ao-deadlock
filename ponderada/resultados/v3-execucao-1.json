@@ -1,0 +1,30 @@
+{
+  "total": 20000,
+  "produzidas": 4,
+  "consumidas": 0,
+  "unicas": 0,
+  "perdidas": 20000,
+  "duplicadas": 0,
+  "nao_produzidas": 19996,
+  "perdidas_apos_producao": 4,
+  "versao": 3,
+  "capacidade": 4,
+  "timeout": 1.0,
+  "travou": true,
+  "duracao_s": 1.101361,
+  "sequencia_consumida": [],
+  "execucao": 1,
+  "inicio_utc": "2026-11-06T20:49:26.634925+00:00",
+  "comando": [
+    "python3",
+    "ponderada/codigo/versao3.py",
+    "--total",
+    "20000",
+    "--capacidade",
+    "4",
+    "--timeout",
+    "1",
+    "--incluir-sequencia"
+  ],
+  "retorno": 0
+}

@@ -1,0 +1,22 @@
+{
+  "diagramas": [
+    {
+      "ciclos": 17,
+      "instrucoes": 7,
+      "ultima_saida": "WB"
+    },
+    {
+      "ciclos": 13,
+      "instrucoes": 7,
+      "ultima_saida": "WB"
+    },
+    {
+      "ciclos": 11,
+      "instrucoes": 7,
+      "ultima_saida": "WB"
+    }
+  ],
+  "comparacoes_semanticas_reordenacao": 1000,
+  "seed": 6,
+  "inclui_alias_de_enderecos": true
+}

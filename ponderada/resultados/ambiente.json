@@ -1,0 +1,17 @@
+{
+  "data_utc": "2026-11-06T20:40:31.820984+00:00",
+  "python": "3.15.2 (main, Oct 26 2026, 10:05:06) [GCC 16.2.1 20260810]",
+  "plataforma": "Linux-7.2.15-2-omarchy-x86_64-with-glibc2.44",
+  "nome": "Rafael Ryu Tati Nakahara",
+  "letras_por_nome": {
+    "Rafael": 6,
+    "Ryu": 3,
+    "Tati": 4,
+    "Nakahara": 8
+  },
+  "D1": 6,
+  "D2": 1,
+  "N": 4,
+  "IC": 120000,
+  "m": 0.06
+}

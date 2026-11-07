@@ -1,0 +1,23 @@
+PONDERADA CC08 | Rafael Ryu Tati Nakahara | Versao 1
+N=4 | 20.000 amostras por tentativa | watchdog=1 s sem retirada
+
+Execucao 1/3: $ python3 ponderada/codigo/versao1.py --total 20000 --capacidade 4 --timeout 1 --incluir-sequencia
+Versão 1 | N=4 | solicitadas=20000
+Produzidas: 20000 | consumidas: 21537 | únicas: 16649
+Perdidas: 3351 | duplicadas: 4888 | travou: False
+Não produzidas: 0 | perdidas após produção: 3351
+JSON completo: ponderada/resultados/v1-execucao-1.json
+
+Execucao 2/3: $ python3 ponderada/codigo/versao1.py --total 20000 --capacidade 4 --timeout 1 --incluir-sequencia
+Versão 1 | N=4 | solicitadas=20000
+Produzidas: 20000 | consumidas: 21962 | únicas: 16712
+Perdidas: 3288 | duplicadas: 5250 | travou: False
+Não produzidas: 0 | perdidas após produção: 3288
+JSON completo: ponderada/resultados/v1-execucao-2.json
+
+Execucao 3/3: $ python3 ponderada/codigo/versao1.py --total 20000 --capacidade 4 --timeout 1 --incluir-sequencia
+Versão 1 | N=4 | solicitadas=20000
+Produzidas: 20000 | consumidas: 21101 | únicas: 16557
+Perdidas: 3443 | duplicadas: 4544 | travou: False
+Não produzidas: 0 | perdidas após produção: 3443
+JSON completo: ponderada/resultados/v1-execucao-3.json
